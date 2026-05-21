@@ -1,0 +1,1 @@
+./kernel_suhu/suhu_proc.o

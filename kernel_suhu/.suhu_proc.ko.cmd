@@ -1,0 +1,1 @@
+savedcmd_kernel_suhu/suhu_proc.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/lib/modules/7.0.5-zen1-1-zen/build/scripts/module.lds -o kernel_suhu/suhu_proc.ko kernel_suhu/suhu_proc.o kernel_suhu/suhu_proc.mod.o .module-common.o
